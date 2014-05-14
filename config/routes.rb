@@ -1,4 +1,5 @@
 Greenisus::Application.routes.draw do
+  get "landings/index"
   resources :questions do
   #->Prelang (voting/acts_as_votable)
   member do
