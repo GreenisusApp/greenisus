@@ -1,4 +1,6 @@
 Greenisus::Application.routes.draw do
+  resources :questions
+
   resources :answers do
   #->Prelang (voting/acts_as_votable)
   member do
